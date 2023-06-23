@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/kings-tms-clinic/static/css/main.eeb13feb.css",
-    "main.js": "/kings-tms-clinic/static/js/main.37dcd41b.js",
+    "main.css": "/kings-tms-clinic/static/css/main.0b7847d7.css",
+    "main.js": "/kings-tms-clinic/static/js/main.6fbf3e59.js",
     "static/media/brain2.mp4": "/kings-tms-clinic/static/media/brain2.df70b2847bd21a831f99.mp4",
     "static/media/brain.mp4": "/kings-tms-clinic/static/media/brain.4ea95b2a5ca7643e1166.mp4",
     "static/media/kings-vbg2.mp4": "/kings-tms-clinic/static/media/kings-vbg2.a11b79cdd720d2724734.mp4",
     "static/media/section2-3-min.jpg": "/kings-tms-clinic/static/media/section2-3-min.28314d1c60c9de29d42f.jpg",
     "static/media/faq.jpg": "/kings-tms-clinic/static/media/faq.76843722d840551389a4.jpg",
     "static/media/menu-bg-insurance-min.jpg": "/kings-tms-clinic/static/media/menu-bg-insurance-min.332f5e600354a378ce98.jpg",
+    "static/media/tms-hero.jpg": "/kings-tms-clinic/static/media/tms-hero.3bbd2b9f73500f959d4d.jpg",
     "static/media/menu-bg-about-min.jpg": "/kings-tms-clinic/static/media/menu-bg-about-min.8b337ff6d94da512d0cd.jpg",
     "static/media/nasal-esketamine.jpg": "/kings-tms-clinic/static/media/nasal-esketamine.e41d5ffa2310643edb32.jpg",
     "static/media/about-section-min.jpg": "/kings-tms-clinic/static/media/about-section-min.3c76809a2a22f0376395.jpg",
@@ -17,6 +18,7 @@
     "static/media/section2-2-min.jpg": "/kings-tms-clinic/static/media/section2-2-min.7e96efd82cee3e6b09aa.jpg",
     "static/media/nav-logo-icon.png": "/kings-tms-clinic/static/media/nav-logo-icon.2ff77c7055e53f1ca746.png",
     "static/media/menu-bg-mission.jpg": "/kings-tms-clinic/static/media/menu-bg-mission.ad81ca1b33d463b33686.jpg",
+    "static/media/tms-section2.jpg": "/kings-tms-clinic/static/media/tms-section2.a4d18cf88aad0b5ed855.jpg",
     "static/media/section2-4-min.jpg": "/kings-tms-clinic/static/media/section2-4-min.05452707769526adaa28.jpg",
     "static/media/section2-1-min.jpg": "/kings-tms-clinic/static/media/section2-1-min.1752c33b8c745718aee7.jpg",
     "static/media/section1.png": "/kings-tms-clinic/static/media/section1.978326350da8e761f013.png",
@@ -37,11 +39,11 @@
     "static/media/united-healthcare.png": "/kings-tms-clinic/static/media/united-healthcare.3232942dcd76167b3bca.png",
     "static/media/aetna.png": "/kings-tms-clinic/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/kings-tms-clinic/index.html",
-    "main.eeb13feb.css.map": "/kings-tms-clinic/static/css/main.eeb13feb.css.map",
-    "main.37dcd41b.js.map": "/kings-tms-clinic/static/js/main.37dcd41b.js.map"
+    "main.0b7847d7.css.map": "/kings-tms-clinic/static/css/main.0b7847d7.css.map",
+    "main.6fbf3e59.js.map": "/kings-tms-clinic/static/js/main.6fbf3e59.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb13feb.css",
-    "static/js/main.37dcd41b.js"
+    "static/css/main.0b7847d7.css",
+    "static/js/main.6fbf3e59.js"
   ]
 }
