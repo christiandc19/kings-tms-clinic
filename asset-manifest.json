@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kings-tms-clinic/static/css/main.f45b97b8.css",
-    "main.js": "/kings-tms-clinic/static/js/main.f26f0896.js",
+    "main.css": "/kings-tms-clinic/static/css/main.1525f8b1.css",
+    "main.js": "/kings-tms-clinic/static/js/main.09287dcf.js",
     "static/media/brain2.mp4": "/kings-tms-clinic/static/media/brain2.df70b2847bd21a831f99.mp4",
     "static/media/brain.mp4": "/kings-tms-clinic/static/media/brain.4ea95b2a5ca7643e1166.mp4",
     "static/media/kings-vbg2.mp4": "/kings-tms-clinic/static/media/kings-vbg2.a11b79cdd720d2724734.mp4",
@@ -39,11 +39,11 @@
     "static/media/united-healthcare.png": "/kings-tms-clinic/static/media/united-healthcare.3232942dcd76167b3bca.png",
     "static/media/aetna.png": "/kings-tms-clinic/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/kings-tms-clinic/index.html",
-    "main.f45b97b8.css.map": "/kings-tms-clinic/static/css/main.f45b97b8.css.map",
-    "main.f26f0896.js.map": "/kings-tms-clinic/static/js/main.f26f0896.js.map"
+    "main.1525f8b1.css.map": "/kings-tms-clinic/static/css/main.1525f8b1.css.map",
+    "main.09287dcf.js.map": "/kings-tms-clinic/static/js/main.09287dcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.f45b97b8.css",
-    "static/js/main.f26f0896.js"
+    "static/css/main.1525f8b1.css",
+    "static/js/main.09287dcf.js"
   ]
 }
