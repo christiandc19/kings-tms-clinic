@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kings-tms-clinic/static/css/main.052dbefa.css",
-    "main.js": "/kings-tms-clinic/static/js/main.41923377.js",
+    "main.css": "/kings-tms-clinic/static/css/main.1d298c58.css",
+    "main.js": "/kings-tms-clinic/static/js/main.1f286ff9.js",
     "static/media/kings-vbg2.mp4": "/kings-tms-clinic/static/media/kings-vbg2.a11b79cdd720d2724734.mp4",
     "static/media/section2-5.png": "/kings-tms-clinic/static/media/section2-5.27a22252d6dc1237bdda.png",
     "static/media/section1B.png": "/kings-tms-clinic/static/media/section1B.97d96d377018d574824c.png",
@@ -10,7 +10,6 @@
     "static/media/tms-hero.jpg": "/kings-tms-clinic/static/media/tms-hero.3bbd2b9f73500f959d4d.jpg",
     "static/media/menu-bg-about-min.jpg": "/kings-tms-clinic/static/media/menu-bg-about-min.8b337ff6d94da512d0cd.jpg",
     "static/media/nasal-esketamine.jpg": "/kings-tms-clinic/static/media/nasal-esketamine.e41d5ffa2310643edb32.jpg",
-    "static/media/nav-logo.png": "/kings-tms-clinic/static/media/nav-logo.d63f3dd993992df591a1.png",
     "static/media/section2-2-min.jpg": "/kings-tms-clinic/static/media/section2-2-min.9ab1da26b374b100a712.jpg",
     "static/media/menu-bg-contact-min.jpg": "/kings-tms-clinic/static/media/menu-bg-contact-min.ec301c1de3521606f18d.jpg",
     "static/media/mission-home-min.jpg": "/kings-tms-clinic/static/media/mission-home-min.ec2ab0ea86b86eb5702f.jpg",
@@ -36,11 +35,11 @@
     "static/media/magellan.png": "/kings-tms-clinic/static/media/magellan.d2edae680a01b7a09143.png",
     "static/media/optum.png": "/kings-tms-clinic/static/media/optum.de349dabe21ac26a99f2.png",
     "index.html": "/kings-tms-clinic/index.html",
-    "main.052dbefa.css.map": "/kings-tms-clinic/static/css/main.052dbefa.css.map",
-    "main.41923377.js.map": "/kings-tms-clinic/static/js/main.41923377.js.map"
+    "main.1d298c58.css.map": "/kings-tms-clinic/static/css/main.1d298c58.css.map",
+    "main.1f286ff9.js.map": "/kings-tms-clinic/static/js/main.1f286ff9.js.map"
   },
   "entrypoints": [
-    "static/css/main.052dbefa.css",
-    "static/js/main.41923377.js"
+    "static/css/main.1d298c58.css",
+    "static/js/main.1f286ff9.js"
   ]
 }
