@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/kings-tms-clinic/static/css/main.f8b7a207.css",
-    "main.js": "/kings-tms-clinic/static/js/main.e5f86f2e.js",
+    "main.css": "/kings-tms-clinic/static/css/main.7e1859e9.css",
+    "main.js": "/kings-tms-clinic/static/js/main.fc46de5c.js",
     "static/media/kings-vbg2.mp4": "/kings-tms-clinic/static/media/kings-vbg2.a11b79cdd720d2724734.mp4",
-    "static/media/section2-5.png": "/kings-tms-clinic/static/media/section2-5.aecfb391d41313317cd9.png",
+    "static/media/section2-5.png": "/kings-tms-clinic/static/media/section2-5.27a22252d6dc1237bdda.png",
+    "static/media/section1B.png": "/kings-tms-clinic/static/media/section1B.97d96d377018d574824c.png",
     "static/media/faq.jpg": "/kings-tms-clinic/static/media/faq.76843722d840551389a4.jpg",
     "static/media/menu-bg-insurance-min.jpg": "/kings-tms-clinic/static/media/menu-bg-insurance-min.332f5e600354a378ce98.jpg",
     "static/media/tms-hero.jpg": "/kings-tms-clinic/static/media/tms-hero.3bbd2b9f73500f959d4d.jpg",
@@ -16,7 +17,6 @@
     "static/media/nav-logo-icon.png": "/kings-tms-clinic/static/media/nav-logo-icon.2ff77c7055e53f1ca746.png",
     "static/media/menu-bg-mission.jpg": "/kings-tms-clinic/static/media/menu-bg-mission.ad81ca1b33d463b33686.jpg",
     "static/media/tms-section2.jpg": "/kings-tms-clinic/static/media/tms-section2.a4d18cf88aad0b5ed855.jpg",
-    "static/media/section1.png": "/kings-tms-clinic/static/media/section1.978326350da8e761f013.png",
     "static/media/section2-1-min.jpg": "/kings-tms-clinic/static/media/section2-1-min.7d119a15849202194486.jpg",
     "static/media/bg1.jpg": "/kings-tms-clinic/static/media/bg1.9548ae59ebd31a1725f5.jpg",
     "static/media/insuranceSection3.jpg": "/kings-tms-clinic/static/media/insuranceSection3.22c9ad7f5c7b87dd3309.jpg",
@@ -35,11 +35,11 @@
     "static/media/magellan.png": "/kings-tms-clinic/static/media/magellan.d2edae680a01b7a09143.png",
     "static/media/optum.png": "/kings-tms-clinic/static/media/optum.de349dabe21ac26a99f2.png",
     "index.html": "/kings-tms-clinic/index.html",
-    "main.f8b7a207.css.map": "/kings-tms-clinic/static/css/main.f8b7a207.css.map",
-    "main.e5f86f2e.js.map": "/kings-tms-clinic/static/js/main.e5f86f2e.js.map"
+    "main.7e1859e9.css.map": "/kings-tms-clinic/static/css/main.7e1859e9.css.map",
+    "main.fc46de5c.js.map": "/kings-tms-clinic/static/js/main.fc46de5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8b7a207.css",
-    "static/js/main.e5f86f2e.js"
+    "static/css/main.7e1859e9.css",
+    "static/js/main.fc46de5c.js"
   ]
 }
