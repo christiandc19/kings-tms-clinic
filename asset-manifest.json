@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/kings-tms-clinic/static/css/main.cf54e921.css",
-    "main.js": "/kings-tms-clinic/static/js/main.23702a21.js",
+    "main.css": "/kings-tms-clinic/static/css/main.20318205.css",
+    "main.js": "/kings-tms-clinic/static/js/main.ef948e54.js",
     "static/media/kings-vbg2.mp4": "/kings-tms-clinic/static/media/kings-vbg2.a11b79cdd720d2724734.mp4",
-    "static/media/section2-5.png": "/kings-tms-clinic/static/media/section2-5.1beb527c030e82d0b0bc.png",
+    "static/media/section2-5.png": "/kings-tms-clinic/static/media/section2-5.aecfb391d41313317cd9.png",
     "static/media/faq.jpg": "/kings-tms-clinic/static/media/faq.76843722d840551389a4.jpg",
     "static/media/menu-bg-insurance-min.jpg": "/kings-tms-clinic/static/media/menu-bg-insurance-min.332f5e600354a378ce98.jpg",
     "static/media/tms-hero.jpg": "/kings-tms-clinic/static/media/tms-hero.3bbd2b9f73500f959d4d.jpg",
@@ -35,11 +35,11 @@
     "static/media/magellan.png": "/kings-tms-clinic/static/media/magellan.d2edae680a01b7a09143.png",
     "static/media/optum.png": "/kings-tms-clinic/static/media/optum.de349dabe21ac26a99f2.png",
     "index.html": "/kings-tms-clinic/index.html",
-    "main.cf54e921.css.map": "/kings-tms-clinic/static/css/main.cf54e921.css.map",
-    "main.23702a21.js.map": "/kings-tms-clinic/static/js/main.23702a21.js.map"
+    "main.20318205.css.map": "/kings-tms-clinic/static/css/main.20318205.css.map",
+    "main.ef948e54.js.map": "/kings-tms-clinic/static/js/main.ef948e54.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf54e921.css",
-    "static/js/main.23702a21.js"
+    "static/css/main.20318205.css",
+    "static/js/main.ef948e54.js"
   ]
 }
