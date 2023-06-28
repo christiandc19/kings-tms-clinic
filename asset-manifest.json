@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kings-tms-clinic/static/css/main.5eda3733.css",
-    "main.js": "/kings-tms-clinic/static/js/main.fc46de5c.js",
+    "main.css": "/kings-tms-clinic/static/css/main.052dbefa.css",
+    "main.js": "/kings-tms-clinic/static/js/main.41923377.js",
     "static/media/kings-vbg2.mp4": "/kings-tms-clinic/static/media/kings-vbg2.a11b79cdd720d2724734.mp4",
     "static/media/section2-5.png": "/kings-tms-clinic/static/media/section2-5.27a22252d6dc1237bdda.png",
     "static/media/section1B.png": "/kings-tms-clinic/static/media/section1B.97d96d377018d574824c.png",
@@ -14,6 +14,7 @@
     "static/media/section2-2-min.jpg": "/kings-tms-clinic/static/media/section2-2-min.9ab1da26b374b100a712.jpg",
     "static/media/menu-bg-contact-min.jpg": "/kings-tms-clinic/static/media/menu-bg-contact-min.ec301c1de3521606f18d.jpg",
     "static/media/mission-home-min.jpg": "/kings-tms-clinic/static/media/mission-home-min.ec2ab0ea86b86eb5702f.jpg",
+    "static/media/nav-logo-2.png": "/kings-tms-clinic/static/media/nav-logo-2.a788c5d10b10cdc0d51d.png",
     "static/media/nav-logo-icon.png": "/kings-tms-clinic/static/media/nav-logo-icon.2ff77c7055e53f1ca746.png",
     "static/media/menu-bg-mission.jpg": "/kings-tms-clinic/static/media/menu-bg-mission.ad81ca1b33d463b33686.jpg",
     "static/media/tms-section2.jpg": "/kings-tms-clinic/static/media/tms-section2.a4d18cf88aad0b5ed855.jpg",
@@ -35,11 +36,11 @@
     "static/media/magellan.png": "/kings-tms-clinic/static/media/magellan.d2edae680a01b7a09143.png",
     "static/media/optum.png": "/kings-tms-clinic/static/media/optum.de349dabe21ac26a99f2.png",
     "index.html": "/kings-tms-clinic/index.html",
-    "main.5eda3733.css.map": "/kings-tms-clinic/static/css/main.5eda3733.css.map",
-    "main.fc46de5c.js.map": "/kings-tms-clinic/static/js/main.fc46de5c.js.map"
+    "main.052dbefa.css.map": "/kings-tms-clinic/static/css/main.052dbefa.css.map",
+    "main.41923377.js.map": "/kings-tms-clinic/static/js/main.41923377.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eda3733.css",
-    "static/js/main.fc46de5c.js"
+    "static/css/main.052dbefa.css",
+    "static/js/main.41923377.js"
   ]
 }
