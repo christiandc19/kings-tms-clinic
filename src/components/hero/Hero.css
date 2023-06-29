@@ -51,6 +51,7 @@ video {
     font-size: 1.5rem;
     color: rgb(229, 231, 229);
     padding: 1rem 0 0 0;
+    letter-spacing: 1.5px;
 }
 
 .hero-container p {
