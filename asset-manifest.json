@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kings-tms-clinic/static/css/main.4160a711.css",
+    "main.css": "/kings-tms-clinic/static/css/main.41ab75be.css",
     "main.js": "/kings-tms-clinic/static/js/main.e4b86977.js",
     "static/media/kings-vbg2.mp4": "/kings-tms-clinic/static/media/kings-vbg2.a11b79cdd720d2724734.mp4",
     "static/media/section2-5.png": "/kings-tms-clinic/static/media/section2-5.27a22252d6dc1237bdda.png",
@@ -31,11 +31,11 @@
     "static/media/magellan.png": "/kings-tms-clinic/static/media/magellan.d2edae680a01b7a09143.png",
     "static/media/optum.png": "/kings-tms-clinic/static/media/optum.de349dabe21ac26a99f2.png",
     "index.html": "/kings-tms-clinic/index.html",
-    "main.4160a711.css.map": "/kings-tms-clinic/static/css/main.4160a711.css.map",
+    "main.41ab75be.css.map": "/kings-tms-clinic/static/css/main.41ab75be.css.map",
     "main.e4b86977.js.map": "/kings-tms-clinic/static/js/main.e4b86977.js.map"
   },
   "entrypoints": [
-    "static/css/main.4160a711.css",
+    "static/css/main.41ab75be.css",
     "static/js/main.e4b86977.js"
   ]
 }
