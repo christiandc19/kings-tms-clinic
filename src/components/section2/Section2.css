@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.section2-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.section2 .section2-header h2 {
+    text-align: left;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.section2-content-right {
+    width: 700px;
+    text-align: center;
+    padding: 1rem ;
+    z-index: 5;
+    margin: auto;
+}
+
+.section2-content-right img {
+    width: 100%;
+}
+
+.section2-content-left {
+    width: 40%;
+    margin: auto;
+}
+
+.section2-content-left p {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: justify;
+    color: var(--primary-text);
+    font-size: 1em;
+}
+
+.section2-content-left h2 {
+    font-size: 2rem;
+    color: var(--secondary-text);
+}
+
+
+@media screen and (max-width:1250px)  {
+    .section2-content-left {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .section2-content-left h1, h2, p {
+        text-align: center;
+    }
+
+    .section2-content-left h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:940px) {
+    .section2-content-right {
+        width: 100vw;
+    }
+}
+
+
+/* .wrap {
+  display: flex;
+  flex-wrap: wrap-reverse ;
+  justify-content: space-evenly;
+  margin: 5rem 0 0 0;
+  padding: 3rem 0;
+}
+
+.box {
+    height: auto;
+    width: 600px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.box-right {
+    width: 500px;
+    text-align: center;
+}
+
+.box-right img {
+    width: 100%;
+}
+
+
+.box-right2 {
+    width: 500px;
+    text-align: center;
+    display: none;
+}
+
+.box-right2 img{
+    width: 100%;
+}
+
+
+.wrap .header {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box img {
+    border-radius: 10px;
+}
+
+.wrap p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.box-btn {
+    text-align: center;
+} */
+
+
+/* MEDIA QUERIES */
+/* 
+@media screen and (max-width:940px) {
+
+
+
+
+    .wrap p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 2rem;
+    }
+
+.left button {
+    margin: 1rem auto;
+}
+
+.box-right {
+    display: none;
+}
+
+.box-right2 {
+    display: block;
+}
+
+} */
+
