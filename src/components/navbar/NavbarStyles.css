@@ -109,7 +109,7 @@
 .sub-flex {
   display: flex;
   width: 350px;
-  background-color: #c08e04;
+  background-color: rgb(97, 177, 214);
   border: 1px solid rgba(255, 255, 255, 0.486);
   border-radius: 5px;
   padding: 1rem;

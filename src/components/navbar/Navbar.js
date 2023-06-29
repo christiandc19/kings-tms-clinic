@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo-2.png'
 import logoIcon from '../../assets/nav-logo-icon.png'
+import nasal from '../../assets/nasal.png'
 
 import {FiChevronDown } from "react-icons/fi";
 import Topbar from '../../components/topbar/Topbar';
@@ -66,7 +67,7 @@ const Navbar = () => {
                         <div className='nav-main-flex'>
                             <div className='sub-flex'>
                                 <div className='sub-flex-left'>
-                                    <img src={logoIcon} alt="Palm Springs Rehab Logo" loading="lazy"/>
+                                    <img src={logoIcon} alt="tms" loading="lazy"/>
                                 </div>
                                 <div className='sub-flex-right'>
                                     <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/tms-therapy`}> TMS Therapy</NavLink> 
@@ -77,7 +78,7 @@ const Navbar = () => {
 
                             <div className='sub-flex'>
                                 <div className='sub-flex-left'>
-                                    <img src={logoIcon} alt="Palm Springs Rehab Logo" loading="lazy"/>
+                                    <img src={nasal} alt="nasal esketemine" loading="lazy"/>
                                 </div>
                                 <div className='sub-flex-right'>
                                     <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/nasal-esketamine`}> Nasal Esketamine</NavLink> 

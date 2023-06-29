@@ -11,7 +11,7 @@ const NasalEsketamineSection = () => {
 
 <Fade right>
         <div className="nasalEsketamineServices-content">
-        <h1>Comming Soon</h1>
+        <h1>Comming Soon!</h1>
         </div>
 </Fade>
 </div>
