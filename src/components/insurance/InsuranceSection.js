@@ -10,6 +10,7 @@ import Bluecross from '../../assets/bluecross.png'
 import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 import Magellan from '../../assets/magellan.png'
+import Cigna from '../../assets/cigna.png'
 
 
 
@@ -38,7 +39,7 @@ const InsuranceSection = () => {
                                 </div>
                                 </Fade>
 
-                                <Fade bottom>
+                                <Fade left>
                                 <div className='insurance-thumbnail'>
                                 <InsuranceLogos Image={Anthem}/>
                                 </div>
@@ -53,6 +54,12 @@ const InsuranceSection = () => {
                                 <Fade right>
                                 <div className='insurance-thumbnail'>
                                 <InsuranceLogos Image={Magellan}/>
+                                </div>
+                                </Fade>
+
+                                <Fade right>
+                                <div className='insurance-thumbnail'>
+                                <InsuranceLogos Image={Cigna}/>
                                 </div>
                                 </Fade>
                 </div>

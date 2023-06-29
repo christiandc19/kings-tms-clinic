@@ -1,5 +1,5 @@
 import React from 'react'
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 import './InsuranceSection2.css'
 import InsuranceLogos from './InsuranceLogos'
 
@@ -9,6 +9,7 @@ import Bluecross from '../../assets/bluecross.png'
 import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 import Magellan from '../../assets/magellan.png'
+import Cigna from '../../assets/cigna.png'
 
 
 
@@ -26,25 +27,42 @@ const InsuranceSection2 = () => {
 
                 <div className="InsuranceSection2-content ">
 
-                <div className='insurance-thumbnail'>
+                <Fade left>
+                                <div className='insurance-thumbnail'>
                                 <InsuranceLogos Image={Bluecross}/>
                                 </div>
+                                </Fade>
 
+                                <Fade left>
                                 <div className='insurance-thumbnail'>
                                 <InsuranceLogos Image={Optum}/>
                                 </div>
+                                </Fade>
 
+                                <Fade left>
                                 <div className='insurance-thumbnail'>
                                 <InsuranceLogos Image={Anthem}/>
                                 </div>
+                                </Fade>
 
+                                <Fade right>
                                 <div className='insurance-thumbnail'>
                                 <InsuranceLogos Image={Tricare}/>
                                 </div>
+                                </Fade>
 
+                                <Fade right>
                                 <div className='insurance-thumbnail'>
                                 <InsuranceLogos Image={Magellan}/>
                                 </div>
+                                </Fade>
+
+                                <Fade right>
+                                <div className='insurance-thumbnail'>
+                                <InsuranceLogos Image={Cigna}/>
+                                </div>
+                                </Fade>
+
                 </div>
             </div>
 
