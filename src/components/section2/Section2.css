@@ -18,7 +18,7 @@
 }
 
 .section2-content-right {
-    width: 700px;
+    width: 550px;
     text-align: center;
     padding: 1rem ;
     z-index: 5;
@@ -30,7 +30,7 @@
 }
 
 .section2-content-left {
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
 
