@@ -11,19 +11,19 @@
   .section1:before {
     content: '';
     position: absolute;
-    background: url('../../assets/bg1.jpg') no-repeat center center/cover;
+    background: url('../../assets/bg4.png') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: .06;
+    opacity: .08;
   }
 
 
 
 .section1-content {
-    padding: 5rem 0;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 5rem;
 }
 
 

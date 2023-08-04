@@ -8,7 +8,7 @@
 .faq:before {
   content: '';
   position: absolute;
-  background: url('../../assets/bg1.jpg') no-repeat center center/cover;
+  background: url('../../assets/bg2.png') no-repeat center center/cover;
   height: 100%;
   width: 100%;
   z-index: -1;
@@ -75,10 +75,14 @@
   color: var(--primary-text);
 }
 
+.question {
+  color: white;
+}
+
 /*Question*/
 .question {
   position: relative;
-  background: #d1eaf0;
+  background: rgb(153, 210, 233);
   margin: 0;
   padding: 10px 10px 10px 50px;
   display: block;

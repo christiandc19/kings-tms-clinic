@@ -14,7 +14,7 @@
   .about-container:before {
     content: '';
     position: absolute;
-    background: url('../../assets/bg1.jpg') no-repeat center center/cover;
+    background: url('../../assets/bg2.png') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -25,7 +25,7 @@
 .about-content {
     display: flex;
     flex-wrap: wrap;
-    padding: 8rem 0;
+    padding: 5rem 0;
 }
 
 .about-content-left {

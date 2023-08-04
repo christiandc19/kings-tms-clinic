@@ -6,7 +6,7 @@
   .get_form_inner {
     display: block;
     padding: 3rem 3rem ;
-    background: #F0EFE3;
+    background: rgb(153, 210, 233);
     box-shadow: -4px -2px 20px -7px #cfd5df;
     margin: 2rem 5rem 2rem 5rem;
   }
