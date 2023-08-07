@@ -59,6 +59,7 @@
     text-align: justify;
     color: var(--primary-text);
     font-size: 1em;
+    padding: 1rem 0;
 }
 
 .section2-content-left h2 {
