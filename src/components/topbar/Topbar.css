@@ -27,6 +27,9 @@
 
 }
 
+.topbar span {
+    color: white;
+}
 @media screen and (max-width: 940px) {
     .top-hide {
         display: none;

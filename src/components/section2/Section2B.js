@@ -26,7 +26,7 @@ const Section2B = () => {
                     <div className='section2-flexItem'>
                         <img src={Card2} alt="Mental Health" loading="lazy"/>
                         <h1>COVERED BY MOST INSURANCE</h1>
-                        <p>We handle the paperwork.</p>
+                        <p>We accept most insurance plans, ensuring that you receive the care you need.</p>
                     </div>
                     </Fade>
 

@@ -21,15 +21,17 @@
 
 
 .section1-content {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 5rem;
+    justify-content: center;
+    padding: 3rem 0;
 }
 
 
 .section1-left {
     width: 550px;
     margin: auto;
+    padding: 1rem;
 }
 
 .section1-left img {
@@ -40,15 +42,14 @@
 .section1-right {
     width: 50%;
     margin: auto;
+    padding: 1rem;
 }
 
 
 .section1-right h1 {
-    font-size: 1.2rem;
-    letter-spacing: 3px;
-    padding: 1rem;
-    text-align: left;
+    font-size: 1rem;
     text-transform: uppercase;
+    padding: 1rem 0;
 }
 
 
@@ -56,36 +57,9 @@
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text);
-    padding: 1rem;
     font-size: 16px;
 }
 
-
-.section1-right-flexBox {
-    display: flex;
-    gap: 1rem;
-    padding: 1rem 0;
-}
-
-.section1-right-flex {
-    padding: 1rem 0;
-    gap: 1rem;
-    width: 250px;
-    margin: auto;
-    background-color: rgba(153, 210, 233, 0.253);
-    border-radius: 1rem;
-}
-
-.section1-right-icon {
-    width: max-content;
-    margin: auto;
-    font-size: 2.5rem;
-    color: var(--secondary-text);
-}
-
-.section1-right-description p {
-    text-align: center;
-}
 
 .section1-btn {
     text-align: center;    
@@ -98,71 +72,20 @@
 }
 
 
-.section1-right-description h1 {
-    padding: 0;
-    text-transform: uppercase;
-    color: rgb(12, 133, 231);
-}
-
-
-@media screen and (max-width:1240px) {
-    .section1-right {
-        width: 80%;
-    }
-
-    .section1-right p {
-        font-size: 14px;
-    }
-
-}
-
 @media screen and (max-width:940px)  {
-    .section1-right-flexBox {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .section1-right-flex {
-        width: 40%;
-    }
-    
 
     .section1-content {
         flex-wrap: wrap;
     }
     
-    .section1-right {
-        width: 100%;
-    }
 
+    .section1-right {
+        width: 90%;
+    }
+    
     .section1-right h1 {
         text-align: center;
     }
     
-    
-    .section1-right h2 {
-        text-align: center;
-    }
-
 }
 
-
-@media screen and (max-width:700px) {
-    .section1-right-flexBox {
-        display: block;
-    }
-    
-    .section1-right {
-        width: 100%;
-    }
-
-    .section1-right-flex {
-        padding: 1rem;
-        width: 100%;
-        margin: 1rem 0;
-    }
-
-    .section1-left {
-        width: 90%;
-    }
-}

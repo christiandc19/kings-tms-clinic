@@ -52,7 +52,7 @@ const Navbar = () => {
 
             <div className='nav-box container'>
 
-                <div className="navbar-logo">
+                <div className="navbar-logo show">
                     <Link to='/'>
                             <img src={logo}  alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
@@ -91,40 +91,27 @@ const Navbar = () => {
                     </li>
 
 
-                    {/* <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Technology <FiChevronDown /> </Link>
-                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                        <div className='nav-main-flex'>
-                            <div className='sub-flex'>
-                                <div className='sub-flex-left'>
-                                    <img src={logoIcon} alt="Palm Springs Rehab Logo" loading="lazy"/>
-                                </div>
-                                <div className='sub-flex-right'>
-                                    <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/apollo`}> Apollo</NavLink> 
-                                    <p>Advanced TMS System, made in Germany</p>
-                                    </li>
-                                </div>
-                            </div>
-
-                            <div className='sub-flex'>
-                                <div className='sub-flex-left'>
-                                    <img src={logoIcon} alt="Palm Springs Rehab Logo" loading="lazy"/>
-                                </div>
-                                <div className='sub-flex-right'>
-                                    <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/`}> Nasal Esketamine</NavLink> 
-                                    <p>FDA-cleared, non-medication depression treatment</p>
-                                    </li>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </ul>
-                    </li> */}
 
 
 
 
                     <li><Link to='/about-us'>About Us</Link> </li>
+
+
+
+
+
+                    <div className="navbar-logo hide">
+                    <Link to='/'>
+                            <img src={logo}  alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    </Link>
+                    </div>  
+
+
+
+
+
+
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/faq'>FAQs</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>

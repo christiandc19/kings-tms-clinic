@@ -13,7 +13,7 @@ const Section2 = () => {
                 <Fade left>
                 <div className="section2-content-left">
                     <div className="section2-header">
-                <h2>Is TMS therapy right for you?</h2>
+                <h1>Is TMS therapy right for you?</h1>
                 </div>
 
                 <p>

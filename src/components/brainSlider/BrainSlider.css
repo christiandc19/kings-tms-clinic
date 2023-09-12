@@ -20,16 +20,6 @@
 
 
 
-
-
-
-
-
-/* .BS {
-    background-color: #c08e0428;
-    padding: 3rem 0;
-} */
-
 .brainSlider {
     padding: 1rem 0;
     margin: 2rem auto;
@@ -48,6 +38,10 @@
     color: var(--primary-text);
 }
 
+
+.brainSlider-header p {
+  padding: .5rem;
+}
 
 .brainSlider-bottom1-flex {
     display: flex;

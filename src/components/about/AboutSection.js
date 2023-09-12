@@ -13,35 +13,15 @@ const AboutSection = () => {
           </div>
 
           <div className="about-content-right">
-            <h1>ABOUT US</h1> <br />
-            <h2>
-              <i>Get the right care from the people who care</i>
-            </h2>
+            <h1>Welcome to Kings TMS Therapy Clinic</h1>
+            <p>
+            At Kings TMS Therapy Clinic, we're dedicated to providing innovative and effective solutions for mental health challenges. Our team of experienced professionals is committed to delivering compassionate care, utilizing cutting-edge Transcranial Magnetic Stimulation (TMS) therapy.
+            </p>
 
-            <br />
+            <h1>Our Mission</h1>
             <p>
-            Kings TMS Therapy Clinic provides Transcranial Magnetic Stimulation (TMS) therapy,
-            an FDA-cleared, non-invasive therapy for the treatment of Major Depressive Disorder and other mental health disorders in the United States.
-            TMS therapy provides local electromagnetic stimulation to specific brain regions known to be directly associated with mood regulation.
+            We believe that mental health is just as important as physical health. Our mission is to offer a ray of hope to individuals struggling with depression, anxiety, and other mood disorders. Through personalized TMS therapy, we aim to improve lives and promote mental well-being.
             </p>
-            <br />
-            <p>
-              Kings TMS Therapy Clinic helps you taper in a safe,
-              structured environment. We are there for you, through every stage
-              of recovery. No matter where you’re located, you can reach out and
-              get in touch with someone from our staff today.
-            </p>
-            <br />
-            <br />
-            <div className="about-btn">
-              <button class="about-cta">
-                <span>CONTACT US</span>
-                <svg viewBox="0 0 13 10" height="10px" width="15px">
-                  <path d="M1,5 L11,5"></path>
-                  <polyline points="8 1 12 5 8 9"></polyline>
-                </svg>
-              </button>
-            </div>
           </div>
         </div>
       </div>

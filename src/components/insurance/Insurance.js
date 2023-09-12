@@ -14,7 +14,7 @@ const Insurance = () => {
                         <div className="insurance-content">
                             <Fade top>
                                 <h1>INSURANCE</h1>
-                                <p>We handle all the paper work for you.</p>
+                                <p> Our knowledgeable and friendly staff is here to assist you with any questions or concerns you may have regarding your insurance coverage.</p>
                             </Fade>
                         </div>
                     </div>

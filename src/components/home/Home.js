@@ -18,7 +18,6 @@ const home = () => {
     <InsuranceSection />
     <MissionHome />
     <BrainSlider />
-    {/* <ContactForm />  */}
     <Contact2 />
     </>
   )

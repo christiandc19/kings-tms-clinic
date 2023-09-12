@@ -22,7 +22,7 @@ const InsuranceSection = () => {
                 <div>
                     <h2>INSURANCE</h2> <br />
                     <h1>WE WORK WITH MAJOR INSURANCE GROUPS</h1>
-                    <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
+                    <p>In today's rapidly changing healthcare landscape, access to quality medical care is a critical concern for individuals and families alike. At Kings TMS Therapy Clinic, we understand the importance of making healthcare services accessible and affordable. That's why we're proud to announce that we accept most insurance plans, ensuring that you receive the care you need without breaking the bank.</p>
                 </div>
 
                 <div className="insurance-content ">

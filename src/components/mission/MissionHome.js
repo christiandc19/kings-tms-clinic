@@ -10,7 +10,7 @@ const MissionHome = () => {
         <div className="mission-home-content container">
           <h1>Ready to get started?</h1>
           <p>
-          If you’re struggling to treat symptoms caused by complex mental health or behavioral health issues such as depression, anxiety, or PTSD, it may be time to try something different. TMS may be the next step in your journey towards healing for those who have not found adequate relief from therapy or prescription medications alone.
+          Are you ready to reclaim your life and experience the freedom of improved mental health? Our dedicated team is here to guide you every step of the way. Schedule a consultation today and find out if TMS therapy is the right path towards a brighter future.
           </p>
 
           <h2>

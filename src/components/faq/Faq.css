@@ -27,7 +27,7 @@
 .FAQ .FAQ-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 50%;
     padding: 1rem;
 }
 
@@ -43,6 +43,7 @@
 
 .FAQ h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
 }

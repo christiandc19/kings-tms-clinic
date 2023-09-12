@@ -112,6 +112,15 @@
 }
 
 
+.answers h5 {
+  padding: .5rem 0;
+  color: rgb(235, 139, 15);
+}
+
+.answers ul li {
+  padding: .5rem 0;
+}
+
 
 /*FAQ Toggle*/
 .plus {

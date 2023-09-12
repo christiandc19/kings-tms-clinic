@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 .hero {
     height: 98vh;
     width: 100%;
-    background-color: rgba(14, 13, 13, 0.137);
+    background-color: rgba(8, 8, 8, 0.39);
     z-index: 5555;
 }
 
@@ -23,7 +21,7 @@ video {
     left: 10%;
     position: absolute;
     text-align: left;
-    width: 80%;
+    width: auto;
     padding: 1rem;
 }
 
@@ -34,23 +32,20 @@ video {
 .hero h1 {
     font-size: 7rem;
     text-align: left;
-    color: white;
-    font-family: 'Libre Baskerville', serif;
-    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Courgette', cursive;    
     line-height: 7rem;
 }
 
 .hero span {
-    font-size: 9rem;
-    font-family: 'Updock', cursive;
-    color: rgb(43, 160, 206);
+    color: rgb(24, 157, 201);
 }
 
 .hero h2 {
     font-size: 1.5rem;
     color: rgb(229, 231, 229);
-    padding: 1rem 0 0 0;
-    letter-spacing: 1.5px;
+    padding: .5rem 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero-container p {
@@ -58,17 +53,107 @@ video {
     color: white;
 }
 
+.hero-btns {
+    display: flex;
+    gap: 1rem;
+}
 
 .hero .hero-btn button {
     background-color: rgb(43, 160, 206);
+    border: 1px solid rgb(43, 160, 206);
     cursor: pointer;
     color: white;
 }
 
-
 .hero .hero-btn button:hover {
     background-color: var(--secondary-text);
+    border: 1px solid var(--secondary-text);
 }
+
+
+.hero .hero-btn2 button {
+    background-color: rgba(43, 160, 206, 0);
+    border: 1px solid rgb(43, 160, 206);
+    cursor: pointer;
+    color: white;
+}
+
+.hero .hero-btn2 button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(43, 160, 206);
+}
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { 
+    0%   { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @-moz-keyframes fadeIn { 
+    0%   { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes fadeIn { 
+     0%   { opacity: 0; }
+      100% { opacity: 1; } 
+    }
+    
+    .fade-in {
+        opacity:0;  
+        /* make things invisible upon start */
+        
+        -webkit-animation:fadeIn ease-in 1;  
+        -moz-animation:fadeIn ease-in 1;
+        animation:fadeIn ease-in 1;
+    
+        -webkit-animation-fill-mode:forwards;  
+        -moz-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+    
+        -webkit-animation-duration:1s;
+        -moz-animation-duration:1s;
+        animation-duration:1s;
+    }
+    
+    .fade-in.one {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    }
+    
+    .fade-in.two {
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-delay:1.7s;
+    animation-delay: 1.7s; 
+    }
+    
+    .fade-in.three {
+    -webkit-animation-delay: 2.6s;
+    -moz-animation-delay: 2.6s;
+    animation-delay: 2.6s;
+    }
+
+
+    .fade-in.four {
+        -webkit-animation-delay: 3.5s;
+        -moz-animation-delay: 3.5s;
+        animation-delay: 3.5s;
+    }
+
+    .fade-in.five {
+        -webkit-animation-delay: 4.4s;
+        -moz-animation-delay: 4.4s;
+        animation-delay: 4.4s;
+    }
+
+
+
+
+
 
 
 
@@ -87,32 +172,31 @@ video {
     }
 
     .hero p {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .hero .hero-container {
-    left: 0%;
-    text-align: center;
-    width: 100%;
-}
-
-.hero span {
-    font-size: 5rem;
-}
-
-}
-
-@media screen and (max-width:700px) {
-
-    /* .hero h1 {
-
-        font-size: 3rem;
+        top: 30%;
+        left: 0%;
         text-align: center;
-        letter-spacing: 3px;
-        line-height: 3rem;
-    } */
-    
+        width: 100%;
+    }
+
+    .hero span {
+        font-size: 5rem;
+    }
+
+    .hero h2 {
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .hero-btns {
+        justify-content: center;
+    }
 
 }
+
 
 

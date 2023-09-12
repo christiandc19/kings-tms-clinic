@@ -24,9 +24,8 @@ const Section1 = () => {
 
           <div className="section1-right">
               <Fade right>
-              <h1>What is TMS</h1>
-              <p>Transcranial magnetic stimulation (TMS) is one of the most effective procedures available for depression. It uses focused magnetic pulses to activate specific areas of your brain where low activity causes depression. TMS is an effective, safe, nonconvulsive, and noninvasive brain stimulation procedure that has been in use since 1985 and has been approved by the Food and Drug Administration (FDA) since 2008.</p> <br/>
-              <p>Transcranial magnetic stimulation (TMS) is an alternative to traditional prescription medications that are used to treat major depression and anxiety. Many patients find that TMS is more effective and has fewer side effects than other treatment options. </p>
+              <h1>Unlock a New Era of Mental Health with TMS Therapy</h1>
+              <p>Welcome to our cutting-edge Transcranial Magnetic Stimulation (TMS) Center, where science meets compassion to revolutionize mental health care. Kings TMS therapy harnesses the power of magnetic fields to stimulate targeted regions of the brain, offering a safe, non-invasive, and remarkably effective treatment for depression, anxiety, and a range of neurological conditions. Our dedicated team of board-certified professionals combines expertise with genuine empathy, ensuring every individual receives personalized care and support on their journey towards renewed well-being. <br/> <br/>At Kings TMS Therapy Clinic, we believe in reshaping lives through innovation, providing hope and healing for those seeking a brighter, more fulfilling future. Explore our state-of-the-art facility, meet our experienced team, and discover how Kings TMS therapy is redefining mental health treatment. Take the first step towards transformative, evidence-based care today. Your path to a healthier mind begins here.</p>
               </Fade>  
 
               <div className="section1-btn">
@@ -37,49 +36,6 @@ const Section1 = () => {
                       </LinkRoll>
 
                     </div>
-
-
-              <div className="section1-right-flexBox">
-
-
-              {/* <div className="section1-right-flex">
-
-                  <div className="section1-right-icon">
-                    <h3><BiMagnet/></h3>
-                  </div>
-                  <div className="section1-right-description">
-                    <p>Learn how TMS therapy treats depression.</p>
-                    <div className="section1-btn">
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                    <Link to="/tms-therapy">
-                      <button>How it works</button>
-                      </Link>
-                      </LinkRoll>
-
-                    </div>
-                  </div>
-              </div> */}
-              
-
-              {/* <div className="section1-right-flex">
-                  <div className="section1-right-icon">
-                    <h3><BsGear/></h3>
-                  </div>
-                  <div className="section1-right-description">
-                    <p>We'll walk you through treatment process.</p>
-                    <div className="section1-btn">
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                    <Link to="/what-to-expect">
-                      <button>What to expect</button>
-                    </Link>
-                    </LinkRoll>
-                    </div>
-                  </div>
-              </div> */}
-
-
-              </div>
-
           </div>
 
         </div>

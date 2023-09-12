@@ -18,7 +18,7 @@ const Contact = () => {
                     <h1>HAVE SOME QUESTIONS?</h1>
             </Fade>
             <Fade right>
-                  <p>Our Support team is available 24 hours a day 7 Days a week. </p>
+                  <p>Have questions or want to learn more about our TMS therapy services? We look forward to being a part of your mental health journey.</p>
             </Fade>
             <Fade right>
                   <h2>+1 (323) 319-6219</h2>
