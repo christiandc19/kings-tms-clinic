@@ -60,7 +60,7 @@
 
 @media screen and (max-width:1200px) {
     .TMSSection-right {
-        width: 90%;
+        width: 100%;
         right: 0;
         text-align: center;
     }

@@ -262,5 +262,11 @@
 
 
 
+@media screen and (max-width: 700px) {
+  .sub__menus__arrows svg, .sub__menus__arrows__full svg {
+    display: none;
+  }
+
+}
 
 

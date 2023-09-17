@@ -24,7 +24,8 @@
 
 .about-content {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
     padding: 5rem 0;
 }
 
@@ -32,6 +33,7 @@
     width: 50%;
     text-align: left;
     margin: auto;
+    padding: 1rem;
 }
 
 .about-content-left img {
@@ -42,7 +44,7 @@
 .about-content-right {
     width: 600px;
     margin: auto;
-    padding: 0 2rem;
+    padding: 1rem;
 }
 
 .about-container h2 {
@@ -65,6 +67,7 @@
 
 .about-content-right p {
     font-size: 16px;
+    text-align: justify;
 }
 
 
@@ -76,84 +79,22 @@
     text-align: center;
 }
 
-.about-cta {
-    position: relative;
-    padding: 12px 18px;
-    transition: all 0.2s ease;
-    border: none;
-    background: none;
-    justify-content: center;
-   }
-   
-   .about-cta:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 50px;
-    background: var(--primary-color);
-    width: 45px;
-    height: 45px;
-    transition: all 0.3s ease;
-   }
-   
-   .about-cta span {
-    position: relative;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: var(--green);
-   }
-   
-   .about-cta svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: var(--green);
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-   }
-   
-   .about-cta:hover:before {
-    width: 100%;
-    background: var(--primary-color);
-   }
-   
-   .about-cta:hover svg {
-    transform: translateX(0);
-   }
-   
-   .about-cta:active {
-    transform: scale(0.95);
-   }
 
-/* @media screen and (max-width:1250px)  {
-    .about-content-right {
-        width: 100%;
-        padding: 1rem 2rem;
-    }
 
-    .about-content-right h1, h2, p {
-        text-align: center;
-    }
 
-    .about-content-right h2 {
-        font-size: 2rem;
-    }
 
-} */
+
 
 @media screen and (max-width:940px) {
+    .about-content {
+        flex-wrap: wrap;
+    }
+
     .about-content-left {
-        width: 100vw;
+        width: 95%;
     }
-    .about-content-left img {
-        padding: 2rem;
+    .about-content-right {
+        width: 95%;
     }
+
 }
