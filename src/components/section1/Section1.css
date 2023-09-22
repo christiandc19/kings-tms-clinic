@@ -24,25 +24,24 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 3rem 0;
+    gap: 1rem;
+    padding: 3rem 1rem;
 }
 
 
 .section1-left {
     width: 550px;
     margin: auto;
-    padding: 1rem;
 }
 
 .section1-left img {
     width: 100%;
-    padding: 1rem;
+    height: auto;
 }
 
 .section1-right {
     width: 50%;
     margin: auto;
-    padding: 1rem;
 }
 
 

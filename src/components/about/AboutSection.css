@@ -26,25 +26,24 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 5rem 0;
+    padding: 5rem 1rem;
 }
 
 .about-content-left {
     width: 50%;
     text-align: left;
     margin: auto;
-    padding: 1rem;
 }
 
 .about-content-left img {
     width: 100%;
+    height: auto;
     border-radius: 1rem;
 }
 
 .about-content-right {
     width: 600px;
     margin: auto;
-    padding: 1rem;
 }
 
 .about-container h2 {

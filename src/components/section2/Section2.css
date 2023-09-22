@@ -22,24 +22,25 @@
 
 .section2-content {
     display: flex;
-    padding-bottom: 5rem;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 1rem 5rem 1rem;
 }
 
 .section2-content-right {
     width: 550px;
     text-align: center;
-    padding: 1rem ;
     margin: auto;
 }
 
 .section2-content-right img {
     width: 100%;
+    height: auto;
 }
 
 .section2-content-left {
     width: 50%;
     margin: auto;
-    padding: 1rem;
 }
 
 .section2-content-left p {

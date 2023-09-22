@@ -20,8 +20,8 @@ const InsuranceSection2 = () => {
         <div className='InsuranceSection2'>
             <div className="InsuranceSection2-container container">
                 <div>
-                    <h2>INSURANCE</h2> <br />
-                    <h1>WE WORK WITH MAJOR INSURANCE GROUPS</h1>
+                    <h1>INSURANCE</h1> <br />
+                    <h2>WE WORK WITH MAJOR INSURANCE GROUPS</h2>
                     <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                 </div>
 
