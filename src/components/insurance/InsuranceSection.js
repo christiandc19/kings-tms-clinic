@@ -64,23 +64,13 @@ const InsuranceSection = () => {
                                 </Fade>
                 </div>
 
-                <div className='insurance-btn'>
-            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-            <Link to="/insurance">
-                <button>Learn More</button>
-            </Link>
-            </LinkRoll>
+                            <div className="insurance-section-link">
+                                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                                <p> Your Comprehensive Guide to <Link to="/insurance"><span> Insurance</span> </Link> Options.</p>
+                                </LinkRoll>
+                            </div>
 
             </div>
-
-
-
-            </div>
-
-            
-
-
-
 
         </div>
         </>
