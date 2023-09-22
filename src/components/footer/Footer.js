@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div className="col-container">
             <div className="footer-col">
-              <h3>COMPANY</h3>
+              <h1>COMPANY</h1>
 
               <LinkRoll
                 activeClass="active"
@@ -59,7 +59,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-col">
-              <h3>Navigation</h3>
+              <h1>Navigation</h1>
 
               <LinkRoll
                 activeClass="active"
@@ -100,7 +100,7 @@ const Footer = () => {
 
 
             <div className="footer-col">
-              <h3>SERVICES</h3>
+              <h1>SERVICES</h1>
               <LinkRoll
                 activeClass="active"
                 to="top"

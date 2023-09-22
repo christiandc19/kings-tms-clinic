@@ -63,31 +63,31 @@ const Navbar = () => {
 
 
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Services <FiChevronDown /> </Link>
-                    <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                        <div className='nav-main-flex'>
-                            <div className='sub-flex'>
-                                <div className='sub-flex-left'>
-                                    <img src={logoIcon} alt="tms" loading="lazy"/>
+                        <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                            <div className='nav-main-flex'>
+                                <div className='sub-flex'>
+                                    <div className='sub-flex-left'>
+                                        <img src={logoIcon} alt="tms" loading="lazy"/>
+                                    </div>
+                                    <div className='sub-flex-right'>
+                                        <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/tms-therapy`}> TMS Therapy</NavLink> 
+                                        <p>FDA-cleared, non-medication depression treatment</p>
+                                        </li>
+                                    </div>
                                 </div>
-                                <div className='sub-flex-right'>
-                                    <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/tms-therapy`}> TMS Therapy</NavLink> 
-                                    <p>FDA-cleared, non-medication depression treatment</p>
-                                    </li>
-                                </div>
-                            </div>
 
-                            <div className='sub-flex'>
-                                <div className='sub-flex-left'>
-                                    <img src={nasal} alt="nasal esketemine" loading="lazy"/>
-                                </div>
-                                <div className='sub-flex-right'>
-                                    <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/nasal-esketamine`}> Nasal Esketamine</NavLink> 
-                                    <p>FDA-cleared, non-medication depression treatment</p>
-                                    </li>
+                                <div className='sub-flex'>
+                                    <div className='sub-flex-left'>
+                                        <img src={nasal} alt="nasal esketemine" loading="lazy"/>
+                                    </div>
+                                    <div className='sub-flex-right'>
+                                        <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/nasal-esketamine`}> Nasal Esketamine</NavLink> 
+                                        <p>FDA-cleared, non-medication depression treatment</p>
+                                        </li>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </ul>
+                        </ul>
                     </li>
 
 

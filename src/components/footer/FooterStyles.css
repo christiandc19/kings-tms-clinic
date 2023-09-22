@@ -40,23 +40,12 @@
     border-radius: .5rem;
 }
 
-
 .footer .top .icon {
     font-size: 3rem;
     margin-right: 1rem;
     color: white;
     cursor: pointer;
 }
-
-.footer h2 {
-    font-size: 2rem;
-}
-
-.footer h3 {
-    color: rgb(255, 255, 255);
-}
-
-
 
 .footer-col {
     width: 200px;
@@ -71,13 +60,12 @@
     width: 100%;
 }
 
-
-
-.footer h3 {
+.footer h1 {
     margin: 1rem 0;
     text-transform: uppercase;
     text-align: center;
-    color: var(--green);
+    color: var(--primary-color);
+    font-size: 1rem;
 }
 
 
