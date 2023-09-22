@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="logo-footer">
               <img
                 src={logo}
-                alt="TMS Clinic Logo"
+                alt="Kings TMS"
                 loading="lazy"
               />
             </div>

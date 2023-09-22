@@ -54,7 +54,7 @@ const Navbar = () => {
 
                 <div className="navbar-logo show">
                     <Link to='/'>
-                            <img src={logo}  alt="Palm Springs Rehab Logo" loading="lazy"/>
+                            <img src={logo}  alt="Kings TMS" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -103,7 +103,7 @@ const Navbar = () => {
 
                     <div className="navbar-logo hide">
                     <Link to='/'>
-                            <img src={logo}  alt="Palm Springs Rehab Logo" loading="lazy"/>
+                            <img src={logo}  alt="Kings TMS" loading="lazy"/>
                     </Link>
                     </div>  
 
