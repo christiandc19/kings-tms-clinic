@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 import Fade from 'react-reveal/Fade';
 
-import section1 from '../../assets/section2-5.png'
+import section1 from '../../assets/section2-5.webp'
 
 // import { BsGear } from "react-icons/bs";
 // import { BiMagnet } from "react-icons/bi";

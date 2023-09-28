@@ -2,7 +2,7 @@ import React from "react";
 import "./Section2.css";
 import Fade from 'react-reveal/Fade';
 
-import section2 from '../../assets/apollo.png'
+import section2 from '../../assets/apollo.webp'
 
 const Section2 = () => {
   return (
