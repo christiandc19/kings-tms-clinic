@@ -21,7 +21,7 @@ const Quizzes = () => {
         <h1>Take our Mental Health Quiz</h1>
         </div>
 
-        <p>Understanding and prioritizing your mental well-being is important. Take our mental health quiz to gain insights and resources tailored to you.</p>
+        <p>Understanding and prioritizing your mental well-being is important. Take our mental health quiz below to gain insights and resources tailored to you.</p>
 
     </div>
     </Fade>

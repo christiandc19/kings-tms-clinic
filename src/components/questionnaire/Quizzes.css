@@ -27,7 +27,7 @@
 }
 
 .quizzes-content-right {
-    width: 550px;
+    width: 400px;
     text-align: center;
     margin: auto;
 }
@@ -67,7 +67,7 @@
 
 @media screen and (max-width:940px) {
     .quizzes-content-right {
-        width: 90%;
+        width: 70%;
     }
 
     .quizzes-content-left {
@@ -81,5 +81,12 @@
     .quizzes-content-left h1 {
         text-align: center;
     }
+}
+
+@media screen and (max-width:700px)  {
+    .quizzes-content-right {
+        width: 90%;
+    }
+
 }
 
