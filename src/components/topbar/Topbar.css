@@ -1,7 +1,7 @@
 .topbar {
     width: 100%;
-    padding: .5rem;
-    background-color: #c08e04;
+    padding: .4rem;
+    background-color: #ffffff;
 }
 
 .topbar .topbar-content {
@@ -14,6 +14,8 @@
     padding: 0 1rem;
     font-size: 13px;
     text-align: center;
+    color: rgb(12, 111, 156);
+    text-align: left;
 }
 
 .topbar .bar-box1 {
@@ -22,16 +24,20 @@
 }
 
 .topbar .bar-box2 {
-    width: 25rem;
+    width: 23rem;
     border-right: 1px solid rgba(19, 18, 18, 0.459);
-
 }
 
 .topbar span {
-    color: white;
+    color: rgb(235, 138, 12);
 }
 @media screen and (max-width: 940px) {
     .top-hide {
         display: none;
     }
+
+    .topbar .bar-box2 {
+        width: 15rem;
+    }
+
 }

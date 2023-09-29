@@ -46,6 +46,7 @@ video {
     color: rgb(229, 231, 229);
     padding: .5rem 0;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 
 .hero-container p {
@@ -154,11 +155,6 @@ video {
 
 
 
-
-
-
-
-
 /* MEDIA QUERIES */
 
 
@@ -198,5 +194,16 @@ video {
 
 }
 
+
+@media screen and (max-width:940px)  {
+    .hero h1 {
+        font-size: 3rem;
+        }
+
+    .hero span {
+        font-size: 4rem;
+        }
+    
+}
 
 

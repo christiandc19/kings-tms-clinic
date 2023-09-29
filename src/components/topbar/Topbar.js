@@ -2,7 +2,7 @@ import React from "react";
 import "./Topbar.css";
 import { MdLocationPin } from 'react-icons/md';
 import { FiMail } from 'react-icons/fi';
-import { AiOutlinePhone } from 'react-icons/ai';
+import { BsPhone } from 'react-icons/bs';
 
 const Topbar = () => {
   return (
@@ -12,12 +12,12 @@ const Topbar = () => {
           <p><span><MdLocationPin />&nbsp;</span> 7454 Melrose Ave., Los Angeles CA 90046</p>
         </div>
 
-        <div className="email bar-box2 top-hide">
+        <div className="email bar-box2">
           <p><span><FiMail />&nbsp;</span> info@kingstms.com</p>
         </div>
 
         <div className="number bar-box3">
-          <p> <span><AiOutlinePhone />&nbsp;</span> +1 (323) 319-6219</p>
+          <p> <span><BsPhone />&nbsp;</span> (323) 319-6219</p>
         </div>
       </div>
     </div>
