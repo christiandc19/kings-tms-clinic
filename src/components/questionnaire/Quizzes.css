@@ -1,62 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
-.section2 {
+.quizzes {
     width: 100%;
     height: auto;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(29, 28, 29, 0);
+    background: rgba(20, 20, 20, 0.685);
 
   }
   
-  .section2:before {
+  .quizzes:before {
     content: '';
     position: absolute;
-    background: url('../../assets/bg3.png') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -7;
     opacity: .08;
   }
 
-.section2-content {
+.quizzes-content {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 1rem 1rem 5rem 1rem;
+    padding: 8rem 1rem 1rem 1rem;
 }
 
-.section2-content-right {
+.quizzes-content-right {
     width: 550px;
     text-align: center;
     margin: auto;
 }
 
-.section2-content-right img {
+.quizzes-content-right img {
     width: 100%;
     height: auto;
 }
 
-.section2-content-left {
+.quizzes-content-left {
     width: 50%;
     margin: auto;
 }
 
-.section2-content-left p {
+.quizzes-content-left p {
     text-align: justify;
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-text);
+    color: white;
     font-size: 16px;
-}
-
-.section2-content-left h1 {
-    font-size: 1rem;
     padding: 1rem 0;
-    text-transform: uppercase;
+    text-align: center;
 }
 
-.section2-btn button {
+.quizzes-content-left h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.quizzes-btn button {
     background-color: var(--primary-color);
     color: white;
 }
@@ -64,19 +66,19 @@
 
 
 @media screen and (max-width:940px) {
-    .section2-content-right {
+    .quizzes-content-right {
         width: 90%;
     }
 
-    .section2-content-left {
+    .quizzes-content-left {
         width: 90%;
     }
 
-    .section2-content {
+    .quizzes-content {
         flex-wrap: wrap-reverse;
     }
 
-    .section2-content-left h1 {
+    .quizzes-content-left h1 {
         text-align: center;
     }
 }

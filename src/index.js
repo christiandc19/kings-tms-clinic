@@ -12,6 +12,7 @@ import TMSTherapy from './routes/TMS-Therapy';
 import Apollo from './routes/ApolloPage';
 import NasalEsketamine from './routes/Nasal-Esketamine';
 import FAQ from './routes/FAQ';
+import Questionnaire from './routes/Questionnaire';
 
 
 
@@ -31,6 +32,7 @@ ReactDOM.render(
       <Route exact path='/about-us' element={<AboutPage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />
       <Route exact path='/contact' element={<ContactPage />} />
+      <Route exact path='/mental-health-quizzes' element={<Questionnaire />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

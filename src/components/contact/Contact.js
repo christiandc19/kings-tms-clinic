@@ -15,7 +15,7 @@ const Contact = () => {
 
             <div className="contact-hero-content">
             <Fade top>
-                    <h1>HAVE SOME QUESTIONS?</h1>
+                    <h1>HEALTH QUIZZES</h1>
             </Fade>
             <Fade right>
                   <p>Have questions or want to learn more about our TMS therapy services? We look forward to being a part of your mental health journey.</p>

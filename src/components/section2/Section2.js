@@ -1,6 +1,9 @@
 import React from "react";
 import "./Section2.css";
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom';
+import { Link as LinkRoll } from 'react-scroll'
+
 
 import section2 from '../../assets/apollo.webp'
 
@@ -23,6 +26,15 @@ const Section2 = () => {
                 <p>
                 Symptoms typically associated with depression include a disinterest or lack of pleasure in daily activities, feeling down or hopeless, atypical sleep patterns or appetite, lethargy and low energy, low self-esteem, and difficulty concentrating. If you are experiencing some or all of these symptoms and have not seen satisfactory improvement from traditional drug therapy, take our self assessment to find out if you might be a cadidate for TMS therapy.
                 </p>
+
+                <div className='section2-btn'>
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                    <Link to="/mental-health-quizzes">
+                    <button>Take the quiz</button>
+                    </Link>
+                    </LinkRoll>
+                </div>
+
 
             </div>
             </Fade>
