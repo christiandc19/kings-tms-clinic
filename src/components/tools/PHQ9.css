@@ -1,0 +1,15 @@
+.phq9 {
+    padding: 3rem 0;
+}
+
+.phq9-content {
+    width: 50%;
+    padding: 1rem;
+}
+
+.phq9-content #mdapp-widget {
+    width: 100%;
+    height: 50%;
+
+    padding: 1rem;
+}

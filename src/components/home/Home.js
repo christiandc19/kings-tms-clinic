@@ -6,6 +6,7 @@ import Section1 from '../section1/Section1';
 import Section2 from '../section2/Section2';
 import BrainSliderSmall from '../brainSlider/BrainSliderSmall';
 import Section2B from '../section2/Section2B';
+import GAD7 from '../tools/GAD7';
 
 
 
@@ -14,6 +15,7 @@ const home = () => {
     <>
     <Section1 />
     <Section2 />
+    <GAD7 />
     <Section2B />
     <InsuranceSection />
     <MissionHome />

@@ -11,11 +11,15 @@ import section1 from '../../assets/section2-5.webp'
 
 const Section1 = () => {
   return (
+
+
+    
     <>
+
+
       <div className="section1">
 
         <div className="section1-content container">
-
         <Fade left>
           <div className="section1-left">
             <img src={section1} alt="banner" border="0" />

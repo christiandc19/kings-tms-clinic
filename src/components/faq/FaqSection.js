@@ -3,6 +3,8 @@ import Contact2 from '../contact/Contact2'
 import faq1 from '../../assets/faq1.jpg'
 
 import './FaqSection.css'
+import PHQ9 from '../../components/tools/PHQ9'
+
 
 const FaqSection = () => {
   return (
@@ -45,6 +47,8 @@ const FaqSection = () => {
   Is TMS like electroconvulsive therapy (ECT)?
   </label>
   <div class="answers">
+    <PHQ9 />
+
     <p>Transcranial Magnetic Stimulation (TMS) and Electroconvulsive Therapy (ECT) are both treatments for depression, but they differ significantly in their approach, mechanism, and side effects:</p>
     <h5>1. Mechanism of Action:</h5>
     <ul>
