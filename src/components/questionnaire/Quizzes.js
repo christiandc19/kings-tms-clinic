@@ -28,7 +28,7 @@ const Quizzes = () => {
 
     <Fade right>
     <div className="quizzes-content-right">
-        <img src={quiz} alt="banner" border="0" />
+        <img src={quiz} alt="Therapist" border="0" />
 
     </div>
     </Fade>

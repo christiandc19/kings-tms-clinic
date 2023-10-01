@@ -1,10 +1,6 @@
 import React, { useEffect } from 'react';
 import './GAD7.css'
 
-// import gad7 from '../../assets/gad7-img.webp'
-
-
-
 const MDAppWidget = () => {
   useEffect(() => {
     const script = document.createElement('script');
@@ -38,8 +34,6 @@ const MDAppWidget = () => {
           </div>
 
           <div className='gad7-right'>
-            {/* <img src={gad7} alt="banner" border="0" /> */}
-
 
             <div className='gad7-right-header'>
               <h1>GAD 7 scoring interpretation</h1>
@@ -80,22 +74,11 @@ const MDAppWidget = () => {
 
 
 
-
           </div>
 
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
 
 
 

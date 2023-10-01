@@ -24,7 +24,7 @@ const Section2 = () => {
                 </p>
                 <br />
                 <p>
-                Symptoms typically associated with depression include a disinterest or lack of pleasure in daily activities, feeling down or hopeless, atypical sleep patterns or appetite, lethargy and low energy, low self-esteem, and difficulty concentrating. If you are experiencing some or all of these symptoms and have not seen satisfactory improvement from traditional drug therapy, take our self assessment to find out if you might be a cadidate for TMS therapy.
+                Symptoms typically associated with depression include a disinterest or lack of pleasure in daily activities, feeling down or hopeless, atypical sleep patterns or appetite, lethargy and low energy, low self-esteem, and difficulty concentrating. <br /><br /><span> If you are experiencing some or all of these symptoms and have not seen satisfactory improvement from traditional drug therapy, take our self assessment to find out if you might be a cadidate for TMS therapy.</span>
                 </p>
 
                 <div className='section2-btn'>

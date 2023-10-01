@@ -8,7 +8,6 @@ import BrainSliderSmall from '../brainSlider/BrainSliderSmall';
 import Section2B from '../section2/Section2B';
 
 
-
 const home = () => {
   return (
     <>

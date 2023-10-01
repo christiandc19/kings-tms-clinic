@@ -125,6 +125,19 @@ const Footer = () => {
                 </Link>
               </LinkRoll>
 
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mental-health-quizzes">
+                  <p>Mental Health Quiz</p>
+                </Link>
+              </LinkRoll>
+
             </div>
 
           </div>

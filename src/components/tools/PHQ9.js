@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
-import './PHQ9.css'
 
-const PHQ9 = () => {
+const MDAppWidget2 = () => {
   useEffect(() => {
     const script = document.createElement('script');
     script.async = true;
@@ -14,13 +13,8 @@ const PHQ9 = () => {
   }, []);
 
   return (
-    <>
-    <div className='phq9'>
-      <div className='phq9-content container'>
-        <div id="mdapp-widget" app-id="150"></div>
-      </div>
-    </div>
-    </>
+    <div id="mdapp-widget" app-id="150"></div>
   );
 };
-export default PHQ9;
+
+export default MDAppWidget2;
