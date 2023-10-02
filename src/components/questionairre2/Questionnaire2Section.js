@@ -1,7 +1,8 @@
 import React from 'react'
 import Contact2 from '../contact/Contact2'
-import faq1 from '../../assets/faq1.jpg'
+
 import './FaqSection.css'
+import PHQ9 from '../tools/PHQ9'
 
 const FaqSection = () => {
   return (
@@ -11,21 +12,14 @@ const FaqSection = () => {
 
       <div className='faqSection-content container'>
 
-          <div className='faqSection-flex'>
 
-              <div className='faqSection-flex-left'>
-                <h1>What does TMS actually do?</h1>
-                <p>TMS treatment involves placing a coil near your head during brief outpatient procedures. The coil is a magnetic field generator, and it uses magnetic pulses similar to those employed by magnetic resonance imaging (MRI) machines. These pulses are highly focused and create small electric currents in specific areas of your brain where low activity causes depression. Although you will not feel the electric currents, they activate neurons and enhance brain functioning.</p>
-              </div>
 
-              <div className='faqSection-flex-right'>
-                <img src={faq1} alt="TMS Machine" border="0" />
-              </div>
+              <PHQ9 />
+
 
           </div>
 
       </div>
-    </div>
 
 
 <div className='faq'>

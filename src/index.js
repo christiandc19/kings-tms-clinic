@@ -13,6 +13,7 @@ import Apollo from './routes/ApolloPage';
 import NasalEsketamine from './routes/Nasal-Esketamine';
 import FAQ from './routes/FAQ';
 import Questionnaire from './routes/Questionnaire';
+import Questionnaire2 from './routes/Questionnaire2';
 
 
 
@@ -33,6 +34,8 @@ ReactDOM.render(
       <Route exact path='/insurance' element={<InsurancePage />} />
       <Route exact path='/contact' element={<ContactPage />} />
       <Route exact path='/mental-health-quizzes' element={<Questionnaire />} />
+      <Route exact path='/patient-health-questionnaire' element={<Questionnaire2 />} />
+
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

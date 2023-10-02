@@ -28,11 +28,24 @@ const Section2 = () => {
                 </p>
 
                 <div className='section2-btn'>
+
+                  <div className="section2-btn1">
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                    <Link to="/mental-health-quizzes">
-                    <button>Take the quiz</button>
+                      <Link to="/mental-health-quizzes">
+                        <button>Take the quiz</button>
                     </Link>
                     </LinkRoll>
+                  </div>
+
+                  <div className="section2-btn2">
+                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                      <Link to="/patient-health-questionnaire">
+                        <button>Health Questionnaire</button>
+                    </Link>
+                    </LinkRoll>
+                  </div>
+
+
                 </div>
 
 
@@ -42,7 +55,6 @@ const Section2 = () => {
             <Fade right>
             <div className="section2-content-right">
                 <img src={section2} alt="banner" border="0" />
-
             </div>
             </Fade>
 
