@@ -25,14 +25,15 @@ const Section2 = () => {
                 <br />
                 <p>
                 Symptoms typically associated with depression include a disinterest or lack of pleasure in daily activities, feeling down or hopeless, atypical sleep patterns or appetite, lethargy and low energy, low self-esteem, and difficulty concentrating. <br /><br /><span> If you are experiencing some or all of these symptoms and have not seen satisfactory improvement from traditional drug therapy, take our self assessment to find out if you might be a cadidate for TMS therapy.</span>
-                </p>
+                </p><br />
+                <p><i>Let's Begin.</i></p>
 
                 <div className='section2-btn'>
 
                   <div className="section2-btn1">
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                       <Link to="/mental-health-quizzes">
-                        <button>Take the quiz</button>
+                        <button>Generalized Anxiety Disorder (GAD) Quiz</button>
                     </Link>
                     </LinkRoll>
                   </div>
@@ -40,7 +41,7 @@ const Section2 = () => {
                   <div className="section2-btn2">
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                       <Link to="/patient-health-questionnaire">
-                        <button>Health Questionnaire</button>
+                        <button>(PHQ 9) Patient Health Questionnaire</button>
                     </Link>
                     </LinkRoll>
                   </div>

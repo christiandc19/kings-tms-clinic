@@ -64,6 +64,7 @@
 .section2-btn button {
     background-color: var(--primary-color);
     color: white;
+    font-size: 13px;
 }
 
 

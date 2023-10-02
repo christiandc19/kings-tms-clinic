@@ -51,11 +51,6 @@
     height: auto;
 }
 
-    /* .gad7-right img {
-    width: 100%;
-    height: auto;
-    margin: auto;
-} */
 
     .gad7-left {
     margin: auto;
@@ -63,6 +58,11 @@
     height: auto;
     text-align: left;
 }
+
+ .reminder p {
+    font-size: 12px;
+    text-align: justify;
+ }
 
 
 /* TABLE */
