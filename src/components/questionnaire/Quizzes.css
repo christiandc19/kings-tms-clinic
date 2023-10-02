@@ -6,18 +6,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(20, 20, 20, 0.685);
 
   }
   
   .quizzes:before {
     content: '';
     position: absolute;
+    background: url('../../assets/quiz-bg.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -7;
-    opacity: .08;
   }
+  
+
 
 .quizzes-content {
     display: flex;
@@ -80,6 +81,11 @@
 
     .quizzes-content-left h1 {
         text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .quizzes-content-left p {
+        font-size: 12px;
     }
 }
 

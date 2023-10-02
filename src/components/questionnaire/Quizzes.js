@@ -21,7 +21,7 @@ const Quizzes = () => {
         <h1>Take our Mental Health Quiz</h1>
         </div>
 
-        <p>Understanding and prioritizing your mental well-being is important. Take our mental health quiz below to gain insights and resources tailored to you.</p>
+        <p>This quiz is designed to provide you with some insight into the symptoms and characteristics of GAD. It is important to note that this quiz is not a diagnostic tool, and any concerns you have about your mental health should be discussed with a qualified healthcare professional.</p>
 
     </div>
     </Fade>
