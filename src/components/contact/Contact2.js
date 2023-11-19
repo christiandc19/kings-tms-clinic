@@ -7,6 +7,7 @@ import Email from "../../assets/email.png";
 
 import './Contact2.css';
 import emailjs from 'emailjs-com'
+import Access from "../section2/Access";
 
 
 const ContactForm = () => {
@@ -131,6 +132,8 @@ const ContactForm = () => {
 
           </div>
         </div>
+
+        <Access />
         </>
     )
 }

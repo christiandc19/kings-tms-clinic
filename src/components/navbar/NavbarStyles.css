@@ -176,7 +176,7 @@
   .sub__menus__arrows svg, .sub__menus__arrows__full svg {
     padding-top: 0px;
     position: absolute;
-    top: 10px;
+    top: 7px;
   }
 
 
@@ -214,7 +214,7 @@
         left:-100%;
         align-items: center;
         justify-content: center;
-        background: rgb(0, 0, 0);
+        background: rgb(13 110 159);
         transition: 0.5s ease-in;
         color: white;
     }
@@ -263,9 +263,7 @@
 
 
 @media screen and (max-width: 700px) {
-  .sub__menus__arrows svg, .sub__menus__arrows__full svg {
-    display: none;
-  }
+
 
 }
 

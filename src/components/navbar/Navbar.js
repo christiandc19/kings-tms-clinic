@@ -5,7 +5,7 @@ import logo from '../../assets/nav-logo-2.png'
 import logoIcon from '../../assets/nav-logo-icon.png'
 import nasal from '../../assets/nasal.png'
 
-import {FiChevronDown } from "react-icons/fi";
+import {AiFillCaretDown } from "react-icons/ai";
 import Topbar from '../../components/topbar/Topbar';
 
 import './NavbarStyles.css'
@@ -62,7 +62,7 @@ const Navbar = () => {
                     <li><Link to='/'>Home</Link></li>
 
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Services <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Services <AiFillCaretDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <div className='nav-main-flex'>
                                 <div className='sub-flex'>
